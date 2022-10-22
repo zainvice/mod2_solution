@@ -1,0 +1,145 @@
+@media screen and (min-width: 992px ) {
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .section{
+        display: inline-flex;
+        border: 3px solid black;
+    }
+    .head{
+        margin: 0px;
+        align-content: space-between;
+        border: 2px solid black;
+        height: 20px;
+        background-color: aqua;
+        
+    }
+   .text{
+       margin: 0px;
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        font-size: 18px;
+       
+   }
+   .a{
+        float: left;
+        background-color: rgb(75, 75, 75);
+        color: aliceblue;
+   }
+   .c{
+        float: right;
+        background-color: rgb(45, 0, 87);
+        color: aliceblue;
+   }
+   .b{
+     margin-left: 100px;
+     background-color: rgb(160, 160, 160);
+   }
+   .s{
+        background-color: brown;
+   }
+   .t{
+        background-color: rgb(255, 137, 166);
+   }
+   .u{
+        background-color: crimson;
+   }
+}
+@media (min-width: 768px ) and (max-width: 991px) {
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .section{
+      
+        border: 3px solid black;
+    }
+    .head{
+        margin: 0px;
+        align-content: space-between;
+        border: 2px solid black;
+        height: 20px;
+        background-color: aqua;
+        
+    }
+   .text{
+       margin: 0px;
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        font-size: 18px;
+        background-color: blueviolet;
+   }
+   .a{
+        display: inline-flex;
+        background-color: rgb(75, 75, 75);
+   }
+   .b{
+        display: inline-flex;
+        background-color: rgb(160, 160, 160);
+       
+   }
+   .c{
+        background-color: rgb(45, 0, 87);
+   }
+   .s{
+    background-color: brown;
+}
+.t{
+    background-color: rgb(255, 137, 166);
+}
+.u{
+    background-color: crimson;
+}
+}
+@media (max-width: 767px) {
+    .body{
+        margin: 0;
+        padding: 0;
+    }
+    .section{
+      
+        border: 3px solid black;
+    }
+    .head{
+        margin: 0px;
+        align-content: space-between;
+        border: 2px solid black;
+        height: 20px;
+        background-color: aqua;
+        
+    }
+   .text{
+       margin: 0px;
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        font-size: 18px;
+        
+   }
+   .a{
+ 
+    background-color: rgb(75, 75, 75);
+    color: aliceblue;
+    }
+    .c{
+    background-color: rgb(45, 0, 87);
+    color: aliceblue;
+    }
+    .b{
+
+        background-color: rgb(160, 160, 160);
+    }
+   .s{
+    background-color: brown;
+    }
+.t{
+    background-color: rgb(255, 137, 166);
+}
+.u{
+    background-color: crimson;
+}
+  
+}
